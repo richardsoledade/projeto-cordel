@@ -89,25 +89,14 @@ section.img {
 }
 
 section#img1 {
-  background: black url(Imagens/background001.jpg);
-  background-position: right center;
+  background: black url(background001.jpg) right center no-repeat fixed;
 }
 
 section#img2 {
-  background: black url(Imagens/background002.jpg) right center no-repeat fixed;
-  background-size: cover;
+  background: black url(background002.jpg) right center no-repeat fixed;
+  background-position: right center;
 }
 
-
-#img1 {
-  display: block;
-  background-size: cover;
-  background-position: center center;
-
-  display: block;
-  background-size: cover;
-  background-position: center center;
-}
 
 section#img1 > p {
   background-color: rgba(0, 0, 0, 0.322);
