@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=Passion+One:wght@700&family=Sriracha&display=swap");
+
+:root {
+  --font-padrão: "Sriracha", "regular";
+  --fonte-titulo: "Passion one", "bold";
+  --fonte-3: Verdana, Tahoma, sans-serif;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  font-size: 1em;
+}
+
+html,
+body {
+  background-color: rgba(169, 169, 169, 0.062);
+  min-height: 100vh;
+  font-family: var(--fonte-3);
+}
+
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+header > h1 {
+  font-family: var(--fonte-titulo);
+  font-variant: small-caps;
+  font-size: 10vw;
+  padding-top: 50px;
+}
+header > p {
+  color: white;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  font-size: 2vw;
+}
+
+header a,
+footer a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header a:hover,
+footer a:hover {
+  text-decoration: underline;
+  background-color: rgb(42, 114, 13);
+  padding: 10px;
+  transition: 0.5s;
+}
+
+section {
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  padding-left: 30px;
+  font-size: 3.5vw;
+  font-family: var(--font-padrão);
+  line-height: 2em;
+}
+
+section.normal{
+  background-color: white;
+  color: black;
+}
+section > p {
+  padding-bottom: 2em;
+}
+
+section.img > p {
+  display: inline-block;
+  padding: 5px;
+  background-color: rgba(0, 0, 0, 0.514);
+  text-shadow: 1px 1px 0px black;
+}
+
+section.img {
+  width: 100vw;
+  text-align: left;
+  color: white;
+  background-color: rgb(51, 51, 51);
+  background-size: cover;
+  background-attachment: fixed;
+  box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+}
+
+section#img1 {
+  background: black url(Imagens/background001.jpg);
+  background-position: right center;
+}
+
+section#img2 {
+  background: black url(Imagens/background002.jpg) right center no-repeat fixed;
+  background-size: cover;
+}
+
+
+#img1 {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+
+  display: block;
+  background-size: cover;
+  background-position: center center;
+}
+
+section#img1 > p {
+  background-color: rgba(0, 0, 0, 0.322);
+}
+
+footer {
+  text-align: center;
+  color: white;
+  background-color: black;
+  font-size: 2vw;
+  padding: 10px;
+}
